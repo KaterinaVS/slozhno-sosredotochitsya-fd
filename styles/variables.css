@@ -13,19 +13,19 @@
   --main-text-color: #f1b2ce;
   --text-size: 18px;
   --title-decor-text-color: #000028;
+  --button-color: rgba(255, 0, 112, 0.4);
 }
 
 @media (min-width: 768px) {
   :root {
     --header-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
-    --main_content_first_column-size: 236px;
   }
 }
 
 @media (min-width: 1024px) {
   :root {
     --header-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
-    --main_content_first_column-size: 315px;
   }
 }
+
 
